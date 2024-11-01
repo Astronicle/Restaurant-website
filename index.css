@@ -25,6 +25,7 @@ body {
 }
 
 .logo {
+    cursor: pointer;
     padding-left: 30px;
     justify-self: flex-start;
 }
@@ -37,8 +38,8 @@ body {
     justify-self: flex-end;
 }
 
-.flex_item {
-    /* border-style: solid; */
+.location {
+    cursor: pointer;
 }
 
 .foodTypeCards {
@@ -47,11 +48,15 @@ body {
 }
 
 .card {
+    background-color:aliceblue;
     padding: 10px;
+    text-align: center;
+    text-wrap:stable;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 15%;
+    cursor: pointer;
   }
   
   .card:hover {
@@ -61,10 +66,49 @@ body {
   .Filters {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-around;
   }
 
   .filter_items {
     border-style: solid;
+    border-width: 1.6px;
     border-radius: 10px;
+  }
+
+  .FoodCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .FoodCards {
+    padding: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .FoodCards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .Food_price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .FoodCards button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
   }
