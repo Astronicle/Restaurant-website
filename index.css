@@ -9,6 +9,7 @@
 }
 
 .navbar {
+    padding: 0;
     width: 100vw;
     top: 0;
     right: 0;
@@ -17,7 +18,7 @@
     align-items: center;
     background-color: rgb(165, 186, 251);
     border-style: solid;
-    
+    justify-content: space-between;
 }
 
 body {
@@ -27,15 +28,32 @@ body {
 .logo {
     cursor: pointer;
     padding-left: 30px;
-    justify-self: flex-start;
 }
 
-.button {
-    justify-self: flex-end;
+.links{
+  display:flex;
+  height: 5rem;
+  align-items: center;
+  margin-right: 1rem;
+  /* border-style: solid; */
 }
 
-.searchbar {
-    justify-self: flex-end;
+#highlight{
+  height: 5rem;
+  line-height: 5rem;
+}
+
+#highlight:hover {
+  transition: 1s ease;
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+  background-color: black;
+}
+
+.flex_item {
+  height: 5rem;
+  text-align: center;
 }
 
 .location {
@@ -83,6 +101,7 @@ body {
   }
 
   .FoodCards {
+    /* height: 40rem; */
     padding: auto;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
