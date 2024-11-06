@@ -57,7 +57,7 @@ body {
 }
 
 .location {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .foodTypeCards {
@@ -66,7 +66,7 @@ body {
 }
 
 .card {
-    background-color:aliceblue;
+    background-color:white;
     padding: 10px;
     text-align: center;
     text-wrap:stable;
@@ -84,11 +84,13 @@ body {
   .Filters {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:center;
   }
 
   .filter_items {
-    border-style: solid;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
     border-width: 1.6px;
     border-radius: 10px;
   }
@@ -130,4 +132,112 @@ body {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+  }
+
+  .Review_sections {
+    margin: 2rem 1rem;
+    width: 80vw;
+    padding: 2rem 2rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+
+  .UserReviewHeader {
+    font-size: xx-large;
+  }
+
+.review_bars {
+  display: flex;
+  align-items: center;
+}
+
+  .rating_bar_bg {
+    display: inline-block;
+    height: 1.2rem;
+    width: 20rem;
+    background-color: gray;
+  }
+
+  .rating_bar_clr {
+    display: inline-block;
+    height: 1.2rem;
+    margin-left: -20.55rem;
+  }
+
+  /* CONFIGURE THE BAR WIDTH AND STAR MARGIN SUCH THAT THEIR SUM IS EQUAL TO 20REM */
+
+  .rating_bar_clr_1 {
+    background-color: green;
+    width: 16rem;
+  }
+  
+  .filled_star_11 {
+    margin-left: 4rem;
+    height: 2rem;
+  }
+
+  .rating_bar_clr_2 {
+    background-color: blue;
+    width: 9rem;
+  }
+
+  .filled_star_12 {
+    margin-left: 11rem;
+    height: 2rem;
+  }
+
+  .rating_bar_clr_3 {
+    background-color:darkorange;
+    width: 13rem;
+  }
+
+  .filled_star_13 {
+    margin-left: 7rem;
+    height: 2rem;
+  }
+
+  .rating_bar_clr_4 {
+    background-color: yellow;
+    width: 6rem;
+  }
+
+  .filled_star_14 {
+    margin-left: 14rem;
+    height: 2rem;
+  }
+
+  .rating_bar_clr_5 {
+    background-color: red;
+    width: 3rem;
+  }
+
+  .filled_star_15 {
+    margin-left: 17rem;
+    height: 2rem;
+  }
+
+  .filled_star_2 {
+    margin-left: -0.5rem;
+    height: 2rem;
+  }
+
+  .filled_star_3 {
+    margin-left: -0.5rem;
+    height: 2rem;
+  }
+
+  .filled_star_4 {
+    margin-left: -0.5rem;
+    height: 2rem;
+  }
+
+  .filled_star_5 {
+    margin-left: -0.5rem;
+    height: 2rem;
+  }
+
+  .overlap_bars {
+    display: flex;
+    position: relative;
   }
