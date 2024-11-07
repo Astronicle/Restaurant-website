@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     background-color: rgb(165, 186, 251);
-    border-style: solid;
+    border-bottom-style: solid;
     justify-content: space-between;
 }
 
@@ -165,7 +165,7 @@ body {
     margin-left: -20.55rem;
   }
 
-  /* CONFIGURE THE BAR WIDTH AND STAR MARGIN SUCH THAT THEIR SUM IS EQUAL TO 20REM */
+  /* CONFIGURE THE BAR WIDTH AND STAR MARGIN SUCH THAT THEIR SUM IS EQUAL TO 20REM - why this arbitrary value? I DONT KNOW! it just works like that */
 
   .rating_bar_clr_1 {
     background-color: green;
@@ -240,4 +240,43 @@ body {
   .overlap_bars {
     display: flex;
     position: relative;
+  }
+
+  .Footer {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    position: absolute;
+    background-color: white;
+    border-top-style: solid;
+    width: 100vw;
+  }
+
+  .Footer_h-containers {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Footer_v-containers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FootHead {
+    font-size: x-large;
+  }
+
+  .FooterSocialsImg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Social_img_separator {
+    display: flex;
+  }
+
+  .social_img {
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
   }
