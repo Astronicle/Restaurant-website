@@ -1,319 +1,327 @@
 * {
-    padding: 5px;
-    font-family: Josefin_sans;
-    font-size: large;
+  padding: 5px;
+  font-family: Josefin_sans;
+  font-size: large;
 }
 
 @font-face { 
-    font-family: Josefin_sans; src: url('assets/JosefinSans-VariableFont_wght.ttf'); 
+  font-family: Josefin_sans; src: url('assets/JosefinSans-VariableFont_wght.ttf'); 
 }
 
 .navbar {
-    padding: 0;
-    width: 100vw;
-    top: 0;
-    right: 0;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    background-color: rgb(46, 184, 46);
-    justify-content: space-between;
-    z-index: 100;
+  padding: 0;
+  width: 100vw;
+  top: 0;
+  right: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: #49f5f6;
+  justify-content: space-between;
+  z-index: 100;
 }
 
 body {
-    background-color: rgb(0, 17, 51);
-    color: white;
+  background-color: #002845;
+  color: white;
 }
 
 .logo {
-    cursor: pointer;
-    padding-left: 30px;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.logoimg {
+height: 80px;
 }
 
 .links{
-  display:flex;
-  height: 5rem;
-  align-items: center;
-  margin-right: 1rem;
-  /* border-style: solid; */
+display:flex;
+height: 5rem;
+align-items: center;
+margin-right: 1rem;
+/* border-style: solid; */
 }
 
 #highlight{
-  height: 5rem;
-  line-height: 5rem;
-  color: rgb(0, 17, 51);
+height: 5rem;
+line-height: 5rem;
+color: #002845;
 }
 
 #highlight:hover {
-  transition: 0.5s ease;
-  color: rgb(46, 184, 46);
-  height: 5rem;
-  line-height: 5rem;
-  background-color: rgb(0, 17, 51);
+transition: 0.5s ease;
+color: #49f5f6;
+height: 5rem;
+line-height: 5rem;
+background-color: #002845;
 }
 
 .flex_item {
-  height: 5rem;
-  text-align: center;
+height: 5rem;
+text-align: center;
 }
 
 .location {
-  cursor: pointer;
-  color: rgb(46, 184, 46);
+cursor: pointer;
+color: #49f5f6;
 }
 
 .foodTypeTxt {
-  color: rgb(0, 153, 255);
+color: #c8fcfc;
 }
 
 .foodTypeCards {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card {
-    background-color:white;
-    padding: 10px;
-    text-align: center;
-    text-wrap:stable;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 15%;
-    cursor: pointer;
-    color: rgb(46, 184, 46);
-    background-color: rgb(0, 26, 77);
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform:scale(1.1);
-  }
+  background-color:white;
+  padding: 10px;
+  text-align: center;
+  text-wrap:stable;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+  cursor: pointer;
+  color: #49f5f6;
+  background-color: #0c546c;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform:scale(1.1);
+}
 
 .Filter_text {
-  color: rgb(0, 153, 255);
+color: #c8fcfc;
 }
 
-  .Filters {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    color: rgb(46, 184, 46);
-  }
+.Filters {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: #49f5f6;
+}
 
-  .filter_items {
-    margin: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: rgb(0, 26, 77);
-    border-width: 1.6px;
-    border-radius: 10px;
-    color: rgb(46, 184, 46);
-  }
+.filter_items {
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #0c546c;
+  border-width: 1.6px;
+  border-radius: 10px;
+  color: #49f5f6;
+}
 
-  .FoodCardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
+.FoodCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
-  .FoodCards {
-    /* height: 40rem; */
-    padding: auto;
-    background-color: rgb(0, 26, 77);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 10px;
-    color: rgb(0, 17, 51);
-  }
+.FoodCards {
+  /* height: 40rem; */
+  padding: auto;
+  background-color: #0c546c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: #002845;
+}
 
-  .FoodCards:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+.FoodCards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
-  .Food_price {
-    color: white;
-    font-size: 22px;
-  }
+.Food_price {
+  color: white;
+  font-size: 22px;
+}
 
 .Food_Title , .Food_Desc {
-  color: rgb(46, 184, 46);
+color: #49f5f6;
 }
 
-  .FoodCards button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: rgb(46, 184, 46);
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
+.FoodCards button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color:#002845;
+  background-color: #49f5f6;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
 
-  .Review_sections {
-    margin: 2rem 1rem;
-    width: 80vw;
-    padding: 2rem 2rem;
-    background-color: rgb(0, 26, 77);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 10px;
-    color: rgb(46, 184, 46);
-  }
+.Review_sections {
+  margin: 2rem 1rem;
+  width: 80vw;
+  padding: 2rem 2rem;
+  background-color: #0c546c;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  color: #49f5f6;
+}
 
-  .UserReviewHeader {
-    font-size: xx-large;
-    color: rgb(46, 184, 46);
-  }
+.UserReviewHeader {
+  font-size: xx-large;
+  color: #49f5f6;
+}
 
 .review_desc {
-  color: rgb(0, 153, 255);
+color: #c8fcfc;
 }
 
 .review_bars {
-  display: flex;
-  align-items: center;
-  color: rgb(0, 17, 51);
+display: flex;
+align-items: center;
+color: #002845;
 }
 
-  .rating_bar_bg {
-    display: inline-block;
-    height: 1.2rem;
-    width: 20rem;
-    background-color: rgb(0, 17, 51);
-    border-style: solid;
-    border-color: white;
-    border-width: 0.1rem;
-  }
+.starname {
+color: #c8fcfc;
+}
 
-  .rating_bar_clr {
-    display: inline-block;
-    height: 1.2rem;
-    margin-left: -20.55rem;
-  }
+.rating_bar_bg {
+  display: inline-block;
+  height: 1.2rem;
+  width: 20rem;
+  background-color: #002845;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.1rem;
+}
 
-  /* CONFIGURE THE BAR WIDTH AND STAR MARGIN SUCH THAT THEIR SUM IS EQUAL TO 20REM - why this arbitrary value? I DONT KNOW! it just works like that */
+.rating_bar_clr {
+  display: inline-block;
+  height: 1.2rem;
+  margin-left: -20.55rem;
+}
 
-  .rating_bar_clr_1 {
-    background-color: green;
-    width: 16rem;
-  }
-  
-  .filled_star_11 {
-    margin-left: 4rem;
-    height: 2rem;
-  }
+/* CONFIGURE THE BAR WIDTH AND STAR MARGIN SUCH THAT THEIR SUM IS EQUAL TO 20REM - why this arbitrary value? I DONT KNOW! it just works like that */
 
-  .rating_bar_clr_2 {
-    background-color: blue;
-    width: 9rem;
-  }
+.rating_bar_clr_1 {
+  background-color: green;
+  width: 16rem;
+}
 
-  .filled_star_12 {
-    margin-left: 11rem;
-    height: 2rem;
-  }
+.filled_star_11 {
+  margin-left: 4rem;
+  height: 2rem;
+}
 
-  .rating_bar_clr_3 {
-    background-color:darkorange;
-    width: 13rem;
-  }
+.rating_bar_clr_2 {
+  background-color: blue;
+  width: 9rem;
+}
 
-  .filled_star_13 {
-    margin-left: 7rem;
-    height: 2rem;
-  }
+.filled_star_12 {
+  margin-left: 11rem;
+  height: 2rem;
+}
 
-  .rating_bar_clr_4 {
-    background-color: yellow;
-    width: 6rem;
-  }
+.rating_bar_clr_3 {
+  background-color:darkorange;
+  width: 13rem;
+}
 
-  .filled_star_14 {
-    margin-left: 14rem;
-    height: 2rem;
-  }
+.filled_star_13 {
+  margin-left: 7rem;
+  height: 2rem;
+}
 
-  .rating_bar_clr_5 {
-    background-color: red;
-    width: 3rem;
-  }
+.rating_bar_clr_4 {
+  background-color: yellow;
+  width: 6rem;
+}
 
-  .filled_star_15 {
-    margin-left: 17rem;
-    height: 2rem;
-  }
+.filled_star_14 {
+  margin-left: 14rem;
+  height: 2rem;
+}
 
-  .filled_star_2 {
-    margin-left: -0.5rem;
-    height: 2rem;
-  }
+.rating_bar_clr_5 {
+  background-color: red;
+  width: 3rem;
+}
 
-  .filled_star_3 {
-    margin-left: -0.5rem;
-    height: 2rem;
-  }
+.filled_star_15 {
+  margin-left: 17rem;
+  height: 2rem;
+}
 
-  .filled_star_4 {
-    margin-left: -0.5rem;
-    height: 2rem;
-  }
+.filled_star_2 {
+  margin-left: -0.5rem;
+  height: 2rem;
+}
 
-  .filled_star_5 {
-    margin-left: -0.5rem;
-    height: 2rem;
-  }
+.filled_star_3 {
+  margin-left: -0.5rem;
+  height: 2rem;
+}
 
-  .overlap_bars {
-    display: flex;
-    position: relative;
-  }
+.filled_star_4 {
+  margin-left: -0.5rem;
+  height: 2rem;
+}
 
-  .Footer {
-    margin: 0;
-    padding: 0;
-    left: 0;
-    position: absolute;
-    background-color: rgb(0, 26, 77);
-    border-top-style: solid;
-    width: 100vw;
-    color: rgb(0, 17, 51);
-  }
+.filled_star_5 {
+  margin-left: -0.5rem;
+  height: 2rem;
+}
 
-  .Footer_h-containers {
-    display: flex;
-    justify-content: space-evenly;
-    color: rgb(0, 153, 255);
-  }
+.overlap_bars {
+  display: flex;
+  position: relative;
+}
 
-  .Footer_v-containers {
-    display: flex;
-    flex-direction: column;
-  }
+.Footer {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  position: absolute;
+  background-color: #0c546c;
+  border-top-style: solid;
+  width: 100vw;
+  color: #002845;
+}
 
-  .FootHead {
-    font-size: x-large;
-  }
+.Footer_h-containers {
+  display: flex;
+  justify-content: space-evenly;
+  color: #c8fcfc;
+}
 
-  .FootBody {
-    color: rgb(46, 184, 46);
-  }
+.Footer_v-containers {
+  display: flex;
+  flex-direction: column;
+}
 
-  .FooterSocialsImg {
-    display: flex;
-    flex-direction: column;
-  }
+.FootHead {
+  font-size: x-large;
+}
 
-  .Social_img_separator {
-    display: flex;
-  }
+.FootBody {
+  color: #49f5f6;
+}
 
-  .social_img {
-    height: 3rem;
-    width: 3rem;
-    cursor: pointer;
-  }
+.FooterSocialsImg {
+  display: flex;
+  flex-direction: column;
+}
+
+.Social_img_separator {
+  display: flex;
+}
+
+.social_img {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
