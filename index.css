@@ -59,6 +59,7 @@
   background-color: black;
   opacity: 0.8;
 }
+
 .Login_head{
   font-size: xx-large;
   text-decoration: underline;
@@ -114,9 +115,15 @@ height: 5rem;
 text-align: center;
 }
 
-.location {
+.location_bar {
 cursor: pointer;
 color: #49f5f6;
+}
+
+.change_location {
+  background-color: #49f5f6;
+  color: #002845;
+  cursor: pointer;
 }
 
 .foodTypeTxt {

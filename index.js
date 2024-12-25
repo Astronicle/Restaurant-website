@@ -33,3 +33,14 @@ login_button.addEventListener("click", () => {
     cover.style.display = "none";
     login_form.style.display = "none";
 });
+
+const change_location = document.querySelector(".change_location");
+const location1 = document.querySelector(".location");
+
+change_location.addEventListener("click", () => {
+    let entered_location = prompt("Enter your location");
+    if (entered_location === null || entered_location === "") {
+        entered_location = "Unset";
+    }
+    location1.textContent = entered_location;
+});
