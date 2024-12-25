@@ -22,6 +22,7 @@ const login_button = document.querySelector(".login_button");
 login.addEventListener("click", () => {
     cover.style.display = "block";
     login_form.style.display = "flex";
+    signup_form.style.display = "none";
 });
 
 close_button.addEventListener("click", () => {
@@ -32,6 +33,29 @@ close_button.addEventListener("click", () => {
 login_button.addEventListener("click", () => {
     cover.style.display = "none";
     login_form.style.display = "none";
+    alert("Login successful");
+});
+
+const signup_form = document.querySelector(".signup_form");
+const signup = document.querySelector(".signup");
+const signup_button = document.querySelector(".signup_button");
+const close_button1 = document.querySelector(".close_button1");
+
+signup.addEventListener("click", () => {
+    cover.style.display = "block";
+    signup_form.style.display = "flex";
+    login_form.style.display = "none";
+});
+
+signup_button.addEventListener("click", () => {
+    cover.style.display = "none";
+    signup_form.style.display = "none";
+    alert("Sign up successful");
+});
+
+close_button1.addEventListener("click", () => {
+    cover.style.display = "none";
+    signup_form.style.display = "none";
 });
 
 const change_location = document.querySelector(".change_location");
