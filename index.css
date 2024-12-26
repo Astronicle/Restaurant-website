@@ -384,3 +384,38 @@ color: #c8fcfc;
   width: 3rem;
   cursor: pointer;
 }
+
+
+/* CSS for about me section */
+
+/* .aboutMeContainer {
+  background-color: #002845;
+  color: white;
+} */
+
+.myphoto {
+  margin-left: 42.5%;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.aboutMeDescription {
+  background-color: #0c546c;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 15%;
+  width: 70%;
+}
+
+.myName {
+  color: #49f5f6;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.linksforweb {
+  background-color: #002845;
+  border-radius: 10px;
+  color: #49f5f6;
+}
